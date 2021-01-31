@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Alphcons</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- OWL Carousel -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <!-- Lightbox -->
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+   <!--Font Awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <style>
+
+      body {
+          font-size:1.3rem;
+          overflow-x: hidden;
+      }
+      a {
+          color: #61656d;
+          text-decoration: none;
+      }
+      h1 {
+          color:#18e0d3
+      }
+
+      h2{
+          color:#15b5ab;
+          font-size: 1.8rem;
+          margin-top:2rem;
+      }
+
+      h4 {
+          color: #232427;
+          text-transform: uppercase;
+          
+      }
+
+      h5{
+          color:#3b3e42;
+          font-size: 1.3rem;
+      }
+
+      h6 {
+          color:#292b2e;
+          font-size: 1.2rem;
+      }
+
+      .bld{
+          color:#15b5ab;
+          font-size: 1.4rem;
+          font-weight: bold;
+      }
+
+      p{
+          line-height: 1.7rem;
+          font-size:1.3rem;
+      }
+
+      #wrapper{
+          
+          padding: 2rem;
+          padding-right: 5rem;
+      }
+
+      @media screen and (min-width:1000px) {
+        #wrapper{
+            width:70%
+        }
+      }
+
+      .img-responsive{
+        max-width: 100%; 
+        height: auto;
+      }
+
+      .code{
+          color: #07312e;
+          font-size:1.4rem;
+          font-weight: bold;
+      }
+
+
+  </style>
+</head>
+
+
+<body>
+
+    <div id="wrapper" class="container-fluid">
+        <a class="navbar-brand logo" href="#">
+            <img class="logo horizontal-logo" src="logo.png" alt="Alphcons logo">
+          </a>
+        <div class="container">
+
+            <section id="top" class="pt-0">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="big-title text-center">
+                            <h1>Alphcons React One Page Template</h1>
+                            <h2 class="lead">Alphcons documentation version 1.0</h2>
+                                            
+                        </div>
+                        <!-- end title -->
+                    </div>
+                    <!-- end 12 -->
+                </div>
+                <!-- end row -->
+
+                <hr>
+
+            </section>
+            <!-- end section -->
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <nav class="navbar">
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a href="#basic-info" class="font-weight-bold">Basic information</a></li>
+                            <li class="nav-item"><a href="#instal" class="font-weight-bold">Local development</a></li>
+                            <li class="nav-item"><a href="#structure" class="font-weight-bold"> Folder Structure</a></li>
+                            <li class="nav-item"><a href="#fonts" class="font-weight-bold">Fonts</a></li>
+                            <li class="nav-item"><a href="#custom" class="font-weight-bold">Template Customization</a>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item"><a href="#theme">Theme Styles</a></li>
+                                    <li class="nav-item"><a href="#logo-cust">Logo Component</a></li>
+                                    <li class="nav-item"><a href="#button">Button Component</a></li>
+                                    <li class="nav-item"><a href="#nav">Navigation Component</a></li>
+                                    <li class="nav-item"><a href="#hero">Hero Component</a></li>
+                                    <li class="nav-item"><a href="#features">Features Component</a></li>
+                                    <li class="nav-item"><a href="#services">Services Component</a></li>
+                                    <li class="nav-item"><a href="#proj"> Projects Component</a></li>
+                                    <li class="nav-item"><a href="#action">Call to Action Component</a></li>
+                                    <li class="nav-item"><a href="#testim">Testimonials Component</a></li>
+                                    <li class="nav-item"><a href="#pricing">Pricing Component</a></li>
+                                    <li class="nav-item"><a href="#blog">Blog Component</a></li>
+                                    <li class="nav-item"><a href="#contact">Contact Component</a></li>
+                                    <li class="nav-item"><a href="#footer">Footer Component</a></li>
+                                    <li class="nav-item"><a href="#forms"> Forms validation</a></li>
+                                    <li class="nav-item"><a href="#links"> Working with links</a></li>
+                                </ul>
+                            </li>                  
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-9">
+                    <section id="basic-info">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Basic information<hr></h2>
+                                <div class="row">
+
+                                    <div class="col-md-12 full">
+                                        <div class="info1">
+                                            <ul>
+                                                <li><strong>Template Name : </strong>Alphcons React One Page Responsive Template</li>
+                                                <li><strong>Template Version : </strong> v 1.0</li>
+                                                <li><strong>Author  : </strong>UI2Fly</li>
+                                                <li><strong>Template URL : </strong><a href="https://alphcons.netlify.app">https://alphcons.netlify.app</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <hr>
+                                    
+                                    </div>
+
+                                </div>
+                                <!-- end row -->
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="instal">
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                        
+                        <h2> Local Development <a href="#instal">#back to top</a><hr></h2>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+
+
+                        
+                         <h4 class="mt-2">Follow the next steps to start using this template:</h4>
+                         <ul class="list-group">
+                            <li class="list-group-item border-0">
+                                Install NodeJs from <a href="https://nodejs.org/en/" target="_blank">NodeJs Official Page</a>
+                            </li>
+                            <li class="list-group-item border-top-0">
+                                Unzip the downloaded file to a folder in your computer
+                            </li>
+                            <li class="list-group-item border-right-0">Open Terminal</li>
+                            <li class="list-group-item border-bottom-0">Go to your file project</li>
+                            <li class="list-group-item border-left-0">
+                                Run in terminal:
+                                <pre style="color: black; background: rgb(245, 242, 240); text-shadow: white 0px 1px; padding: 1em; margin: 0.5em 0px; overflow: auto;"><code style="color: black; background: none; text-shadow: white 0px 1px;  white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;">npm install</code></pre>
+                            </li>
+                            <li class="list-group-item border-left-0">
+                                Then run:
+                                <pre style="color: black; background: rgb(245, 242, 240); text-shadow: white 0px 1px; padding: 1em; margin: 0.5em 0px; overflow: auto;"><code style="color: black; background: none; text-shadow: white 0px 1px;  white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;">npm start</code></pre>
+                                This will install the node_modules and start the project.
+                            </li>
+                        <ul/>
+                        
+                        </div>
+                    </div>
+
+                    </section>
+
+                    <section id="structure">
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                        <h2> Structure of Template <a href="#top">#back to top</a><hr></h2>
+                
+                        
+                        <h3 class="mt-2">Folder Structure</h3>
+                        <img class="img-responsive" src="general-folders.png" alt="general structure" > 
+                        <h4>node_modules</h4>
+                        <p>Contains all the dependencies that are needed for an initial working react app</p>
+                         <h4>package.json</h4>
+                         <p>
+                            This file contains various metadata that is relevant to the 
+                            project. It specifies the dependencies being used in the project which helps node package manager 
+                            setup the same environment for our project on different machine. 
+                         </p>
+                         <h4>Public folder</h4>
+                         <p>It is the root folder that gets served up as the react app. </p>
+                         <h4>Source folder (src)</h4>
+                         <img class="img-responsive" src="src.PNG" alt="general structure" > 
+                         <p>It is the brain of our application, where everything happens. Basically, this folder contains the components, 
+                              pages, and assets of the project.</p>
+                              <ul>
+                                <li><h5> <i class="far fa-folder-open"></i><b class="ml-2 bld"> assets </b> contains the images and videos used in the templates. Here you can add your custom assets.</h5></li>
+                                <li><h5> <i class="far fa-folder-open"></i><b class="ml-2 bld"> components </b> contains all the editable components of our project. </h5></li>
+                                <li><h5> <i class="far fa-folder-open"></i><b class="ml-2 bld"> pages </b> contains the pages of the project</h5></li>
+                                <li><h5> <i class="far fa-folder-open"></i><b class="ml-2 bld"> theme </b> contains the global styles of the project</h5></li>
+                                <li><h5> <i class="far fa-file"></i><b class="ml-2 bld"> AccountContext.js </b> contains the context object</h5></li>
+                                <li><h5> <i class="far fa-file"></i><b class="ml-2 bld"> App.js </b> renders the template pages</h5></li>
+                                <li><h5> <i class="far fa-file"></i><b class="ml-2 bld"> index.js </b> provide entry points for components. Its code says what to render and where to render. </h5></li>
+                            </ul>                          
+
+                    </div>
+                    </div>
+
+                        
+                        <p></p>
+                                               
+                        <hr>
+
+        
+
+                    </section>
+                    <!-- end section -->
+
+                    <section id="fonts" class="pt-1">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2>Fonts <a href="#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <p>In the <strong>public/index.html</strong>, within the head section we have the fonts used in the template</p>   
+                                        
+                                     <code>
+                                       <!-- Google Fonts -->
+                                       &lt;link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"&gt;
+           
+                                    </code>
+                                    <p>The font-family is called in <strong>src/theme/GlobalStyle.js</strong> </p>
+                                    <code>
+                                        *{
+                                            
+                                            font-family: "IBM Plex Sans",sans-serif;
+                                            }
+                                    </code>
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+                    </section>
+                    <!-- end section -->
+       
+
+                    <section id="custom" class="pt-1">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2>Template Customization <a href="#top">#back to top</a></h2><hr>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                         <div class="row" id="theme">
+                            <div class="col-md-12">
+                            </div>
+
+                            <div class="col-md-12">
+                                <h4 class="font-weight-bold"> Theme General Styles - <a href="#top">#back to top</a></h4>
+                               
+                                    <p> You customize the global styles in the <strong>src/theme/GlobalStyle.js</strong> </p> 
+                                    <p> You can customize the theme general styles such as colors, fontSizes, transition, border radius,
+                                          in the <strong>src/theme/theme.js.</strong> Feel free to add your own properties and values.<br> Here is an usage
+                                          example:
+                                         e.g. for <em>colors </em> property, in theme.js we have the values for each color: </p> 
+     
+                                         <img class="img-responsive" src="theme-colors.PNG" alt="menu item" >
+                                           <br>And here is how you call it in styled components:
+                                         <code class="code"> 
+                                             color: ${(props) => props.theme.colors.dark}; 
+                                        </code>
+                                        
+                                       
+                                <p></p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                 <div class="row" id="logo-cust">
+                            <div class="col-md-12">
+                            </div>
+
+                            <div class="col-md-12">
+                                <h4 class="font-weight-bold">How To Change the Logo - <a href="#top">#back to top</a></h4>
+                                <p>
+                                    </p>
+                                    <p> You can change the Logo in the <strong>src/components/Navbar/index.js</strong> in the lines: </p> 
+                                    
+                                        <code class="code">
+                                            import siteLogo from './../../assets/logo.png'              
+                                        </code>
+                                        
+                                       
+                                <p></p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- BUTTON -->
+                        <div class="row" id="button">
+                            <div class="col-md-12">
+                            </div>
+
+                            <div class="col-md-12">
+                                <h4 class="font-weight-bold">Button Component - <a href="#top">#back to top</a></h4>
+                                <p>
+                                    </p>
+                                    <p> There is a default Button component, which we call in few components. You find it in <strong>src/components/ButtonComponent.js</strong>. Feel free to customize its style values: </p> 
+                                    <img class="img-responsive" src="button.PNG" alt="menu item" >
+                                       
+                                       
+                                <p></p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                            <!-- NAVIGATION -->
+                            <div class="row" id="nav">
+                            <div class="col-md-12">
+                                <h4 class="font-weight-bold">Navigation Component- <a href="#top">#back to top</a></h4>
+                                <p>
+                                    </p>
+                                    <p> You customize the Navigation in the <strong>src/components/Navbar</strong>. There are 2 files: <strong>index.js </strong>, which handles the logic of the component, and
+                                    <strong>NavbarComponents.js</strong> (styled components), which handles the style. </p> 
+                                    <p>In <strong>src/components/Navbar/index.js </strong> you add your own menu item:</p>
+                                    <img class="img-responsive" src="menu-link.PNG" alt="menu item" >
+                                    <p> You customize the MobileNavigation in the <strong>src/components/MobNavbar</strong>. There are 2 files: <strong>index.js</strong>, which handles the logic of the component, and
+                                    <strong>MobNavbarComponents.js</strong> (styled components), which handles the style. </p> 
+                                        <p>In <strong>src/components/MobNavbar/index.js </strong> you add your own menu item:</p>
+                                        <img class="img-responsive" src="mob-menu-link.PNG" alt="mobile menu item" >
+
+                                        <p>Each styled component is well commented, so you can change the style according to your needs.</p>
+                                            
+                                    
+                            
+                                       
+                                <p></p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- HERO -->
+                        <div class="row" id="hero">
+                        <div class="col-md-12">
+                            <h4 class="font-weight-bold">Hero Component - <a href="#top">#back to top</a></h4>
+                            <p>
+                                </p>
+                                <p> You customize the Hero in the <strong>src/components/Hero</strong>. There are 2 files: <strong>index.js </strong>, which handles the logic of the component, and
+                                <strong>HeroComponents.js</strong> (styled components), which handles the style. </p> 
+                                <p>In <strong>src/components/Hero/index.js </strong> you add your own video:</p>
+                                <img class="img-responsive" src="video.PNG" alt="video" >
+                                <p>Here you can change the hero tagline and description: </p> 
+                                <img class="img-responsive" src="hero-txt.PNG" alt="hero text" >
+                                <p>And here you customize the hero button: </p> 
+                                <img class="img-responsive" src="hero-btn.PNG" alt="video" >
+                                  <h6>Animated Hero</h6>
+                                    <p>In <strong>src/components/HeroAnimated/index.js </strong> you customize the animated hero text:</p>
+                                    <img class="img-responsive" src="hero-anim-txt.PNG" alt="hero animated text" >
+                                    <p>To customize the styled components, you go to <strong>src/components/HeroAnimated/HeroAnimatedComponents</strong></p>
+                                <h6>Static Hero</h6> 
+                                    <p>In <strong>src/components/HeroStatic/index.js </strong> you can add your own image:</p>
+                                    <img class="img-responsive" src="hero-static.PNG" alt="hero static image" >
+                                    <p>In <strong>src/components/HeroStatic/index.js </strong> you customize the static hero top text, title and subtitle:</p>
+                                    <img class="img-responsive" src="hero-static-txt.PNG" alt="hero static text">
+                                    <p>To customize the styled components, you go to <strong>src/components/HeroStatic/HeroStaticComponents</strong></p>
+                                    <p>Each styled component is well commented, so you can change the style according to your needs.</p>
+                                    
+                                  <h6>Switch between the three heros</h6> 
+                                  <p>Here are the lines of code that display the buttons which give you the possibility to choose another header: </p>
+                                  <img class="img-responsive" src="hero-switch-btns.PNG" alt="hero switch buttons">
+                                  <p>here is the UI display:</p>
+                                  <img class="img-responsive" src="hero-switch-btns-ui.PNG" alt="hero switch buttons">
+
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                    <hr>
+
+                  <!--   FEATURES -->
+                  <div class="row" id="features">
+                  <div class="col-md-12">
+                    <h4 class="font-weight-bold">Features Component - <a href="#top">#back to top</a></h4>
+                    <p>
+                        </p>
+                        <p> You customize the Features in the <strong>src/components/Features</strong>. There are 3 files: <strong>data.js</strong>, which holds the data of the three features sections, <strong>index.js </strong>, which handles the logic of the component, and
+                        <strong>HeroComponents.js</strong> (styled components), which handles the style. </p> 
+                        <p>Here is the structure of the <strong>data.js</strong>. This is the place where you can add your own data. Also, feel free to add more properties or items: </p>
+                        <img class="img-responsive" src="features-data.PNG" alt="features-data" >
+                        <p>Basically, there are 3 features sections, each with its own properties and values. You find more explanations in the file comments. </p>
+                        <p>In <strong>src/components/Features/index.js </strong>, we map through the features array and display the three features sections. The properties from data.js are assigned to each component:</p>
+                        <img class="img-responsive" src="features-index.PNG" alt="features-index" >
+                    
+                            <p>To customize the styled components, you go to <strong>src/components/Features/FeaturesComponents</strong></p>
+                            <p>Each styled component is well commented, so you can change the style according to your needs.</p>
+                                
+                                  
+                    <p></p>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+
+            <hr>
+
+                    <!-- SERVICES -->
+                  <div class="row" id="services">
+                    <div class="col-md-12">
+                      <h4 class="font-weight-bold">Services Component - <a href="#top">#back to top</a></h4>
+                      <p>
+                          </p>
+                          <p> You customize the Services section in the <strong>src/components/Services</strong>. There are 3 files: <strong>data.js</strong>, which holds the data of the three features sections, <strong>index.js </strong>, which handles the logic of the component, and
+                          <strong>ServicesComponents.js</strong> (styled components), which handles the style. </p> 
+                          <p>Here is the structure of the <strong>data.js</strong>. This is the place where you can add your own data. Also, feel free to add more properties or items: </p>
+                          <img class="img-responsive" src="services-data.PNG" alt="services-data" >
+                          <p>Each array item represents one service card, each with its own properties and values. </p>
+                          <p>In <strong>src/components/Services/index.js </strong>, we map through the  items array and display the four projects items. <br>
+                            Here you customize the portfolio navigation filters:
+                              The properties from data.js are assigned to each component:</p>
+                          <img class="img-responsive" src="services-index.PNG" alt="services-index" >
+                      
+                              <p>To customize the styled components, you go to <strong>src/components/Services/ServicesComponents</strong></p>
+                              <p>Each styled component is well commented, so you can change the style according to your needs.</p>
+                                  
+                                    
+                      <p></p>
+                  </div>
+                  <!-- end col -->
+              </div>
+              <!-- end row -->
+  
+              <hr>
+
+                   <!--  PROJECTS -->
+                   
+                  <div class="row" id="proj">
+                    <div class="col-md-12">
+                      <h4 class="font-weight-bold">Projects Component - <a href="#top">#back to top</a></h4>
+                      <p>
+                          </p>
+                          <p> You customize the Projects section in the <strong>src/components/Projects</strong>. There are 3 files: <strong>data.js</strong>, which holds the data of the three features sections, <strong>index.js </strong>, which handles the logic of the component, and
+                          <strong>ProjectsComponents.js</strong> (styled components), which handles the style. </p> 
+                          <p>Here is the structure of the <strong>data.js</strong>. This is the place where you can add your own data. Also, feel free to add more properties or items: </p>
+                          <img class="img-responsive" src="proj-data.PNG" alt="projects-data" >
+                          <p>Each array item represents one portfolio project, each with its own properties and values. </p>
+                          <p>In <strong>src/components/Projects/index.js </strong>, you customize the portfolio navigation filters:  </p>
+                          
+                          <img class="img-responsive" src="proj-filters.PNG" alt="portfolio filters" >
+                          <p> We map through the items array and display the four portfolio items. The properties from data.js are assigned to each component:</p>
+                          <img class="img-responsive" src="proj-index.PNG" alt="projects" >
+                      
+                              <p>To customize the styled components, you go to <strong>src/components/Projects/ProjectsComponents</strong></p>
+                              <p>Each styled component is well commented, so you can change the style according to your needs.</p>
+                                  
+                                    
+                      <p></p>
+                  </div>
+                  <!-- end col -->
+              </div>
+              <!-- end row -->
+  
+              <hr>
+
+              <!-- Action-->
+   <div class="row" id="action">
+    <div class="col-md-12">
+      <h4 class="font-weight-bold">Call to Action Component <a href="#top">#back to top</a></h4>
+      <p>
+          </p>
+          <p> You customize the Contact section in the <strong>src/components/Action</strong>. There are 2 files: <strong>index.js </strong>, which handles the logic of the component, and
+          <strong>ActionComponents.js</strong> (styled components), which handles the style. </p> 
+             
+          <p>In <strong>src/components/Action/index.js </strong>, we render the action data. Here you can customize it with your own content. <br>
+                    
+          <img class="img-responsive" src="action-index.PNG" alt="action-index" >
+ 
+              <p>To customize the styled components, you go to <strong>src/components/Action/ActionComponents</strong></p>
+              <p>Each styled component is well commented, so you can change the style according to your needs.</p>
+                  
+                    
+      <p></p>
+  </div>
+  <!-- end col -->
+</div>
+<!-- end row -->
+
+<hr>
+
+               <!-- TESTIMONIALS -->
+               <div class="row" id="testim">
+                <div class="col-md-12">
+                  <h4 class="font-weight-bold">Testimonials Component - <a href="#top">#back to top</a></h4>
+                  <p>
+                      </p>
+                      <p> You customize the Testimonials section in the <strong>src/components/Testimonials</strong>. There are 3 files: <strong>data.js</strong>, which holds the data of the reviewers, <strong>index.js </strong>, which handles the logic of the component, and
+                      <strong>TestimonialsComponents.js</strong> (styled components), which handles the style. </p> 
+                      <p>Here is the structure of the <strong>data.js</strong>. This is the place where you can add your own data. Also, feel free to add more properties or items: </p>
+                      <img class="img-responsive" src="testim-data.PNG" alt="testimonials-data" >
+                      <p>Each array item represents one user, each with its own properties and values. </p>
+                      <p>In <strong>src/components/Testimonials/index.js </strong>, we map through the users array and display them in a carousel. <br>
+                
+                          The properties from data.js are assigned to each component:</p>
+                      <img class="img-responsive" src="testim-index.PNG" alt="testimonials index" >
+                  
+                          <p>To customize the styled components, you go to <strong>src/components/Testimonials/TestimonialsComponents</strong></p>
+                          <p>Each styled component is well commented, so you can change the style according to your needs.</p>
+                              
+                                
+                  <p></p>
+              </div>
+              <!-- end col -->
+          </div>
+          <!-- end row -->
+
+          <hr>
+
+          <!-- PRICING -->
+          <div class="row" id="pricing">
+            <div class="col-md-12">
+              <h4 class="font-weight-bold">Pricing Component - <a href="#top">#back to top</a></h4>
+              <p>
+                  </p>
+                  <p> You customize the Pricing section in the <strong>src/components/Pricing</strong>. There are 3 files: <strong>data.js</strong>, which holds the data of the three pricing cards, <strong>index.js </strong>, which handles the logic of the component, and
+                  <strong>PricingComponents.js</strong> (styled components), which handles the style. </p> 
+                  <p>Here is the structure of the <strong>data.js</strong>. This is the place where you can add your own data. Also, feel free to add more properties or items: </p>
+                  <img class="img-responsive" src="pricing-data.PNG" alt="pricing-data" >
+                  <p>Each array item represents one pricing card, each with its own properties and values. </p>
+                  <p>In <strong>src/components/Pricing/index.js </strong>, we map through the  items array and display the three pricing cards. <br>
+                    
+                      The properties from data.js are assigned to each component:</p>
+                  <img class="img-responsive" src="pricing-index.PNG" alt="pricing-index" >
+              
+                      <p>To customize the styled components, you go to <strong>src/components/Pricing/PricingComponents</strong></p>
+                      <p>Each styled component is well commented, so you can change the style according to your needs.</p>
+                          
+                            
+              <p></p>
+          </div>
+          <!-- end col -->
+      </div>
+      <!-- end row -->
+
+      <hr>
+
+      <!-- BLOG -->
+      <div class="row" id="blog">
+        <div class="col-md-12">
+          <h4 class="font-weight-bold">Blog Component <a href="#top">#back to top</a></h4>
+          <p>
+              </p>
+              <p> You customize the Blog section in the <strong>src/components/Blog</strong>. There are 3 files: <strong>data.js</strong>, which holds the data of the three blog cards, <strong>index.js </strong>, which handles the logic of the component, and
+              <strong>BlogComponents.js</strong> (styled components), which handles the style. </p> 
+              <p>Here is the structure of the <strong>data.js</strong>. This is the place where you can add your own data. Also, feel free to add more properties or items: </p>
+              <img class="img-responsive" src="blog-data.PNG" alt="blog-data" >
+              <p>Each array item represents one blog card, each with its own properties and values. </p>
+              <p>In <strong>src/components/Pricing/index.js </strong>, we map through the  items array and display the three pricing cards. <br>
+                
+                  The properties from data.js are assigned to each component:</p>
+              <img class="img-responsive" src="blog-index.PNG" alt="blog-index" >
+          
+                  <p>To customize the styled components, you go to <strong>src/components/Blog/BlogComponents</strong></p>
+                  <p>Each styled component is well commented, so you can change the style according to your needs.</p>
+                      
+                        
+          <p></p>
+      </div>
+      <!-- end col -->
+  </div>
+  <!-- end row -->
+
+  <hr>
+
+   <!-- Contact -->
+   <div class="row" id="contact">
+    <div class="col-md-12">
+      <h4 class="font-weight-bold">Contact Component <a href="#top">#back to top</a></h4>
+      <p>
+          </p>
+          <p> You customize the Contact section in the <strong>src/components/Contact</strong>. There are 2 files: <strong>index.js </strong>, which handles the logic of the component, and
+          <strong>ContactComponents.js</strong> (styled components), which handles the style. </p> 
+             
+          <p>In <strong>src/components/Contact/index.js </strong>, we render the contact form. Here you can customize it with your own content. <br>
+                    
+          <img class="img-responsive" src="contact-index.PNG" alt="blog-index" >
+           You can read more about the form functions at <a href="#forms">here</a> 
+              <p>To customize the styled components, you go to <strong>src/components/Contact/ContactComponents</strong></p>
+              <p>Each styled component is well commented, so you can change the style according to your needs.</p>
+                  
+                    
+      <p></p>
+  </div>
+  <!-- end col -->
+</div>
+<!-- end row -->
+
+<hr>
+
+ <!--Footer Comp-->
+ <div class="row" id="action">
+    <div class="col-md-12">
+      <h4 class="font-weight-bold">Footer Component <a href="#top">#back to top</a></h4>
+      <p>
+          </p>
+          <p> You customize the Footer section in the <strong>src/components/Footer</strong>. There are 2 files: <strong>index.js </strong>, which handles the logic of the component, and
+          <strong>FooterComponents.js</strong> (styled components), which handles the style. </p> 
+             
+          <p>In <strong>src/components/Footer/index.js </strong>, we render the footer information: the newsletter, links, and copyright sections. Here you can customize the footer logo: <br>
+
+                    
+          <img class="img-responsive" src="footer-logo.PNG" alt="footer-logo" >
+          <p>You customize the newsletter section here:</p>
+          <img class="img-responsive" src="footer-news.PNG" alt="footer newsletter" >
+          <p>You customize the footer links here:</p>
+          <img class="img-responsive" src="footer-links.PNG" alt="footer links" >
+          <p>You customize the copyright section here:</p>
+          <img class="img-responsive" src="footer-copy.PNG" alt="footer copyright" >
+ 
+              <p>To customize the styled components, you go to <strong>src/components/Footer/FooterComponents</strong></p>
+              <p>Each styled component is well commented, so you can change the style according to your needs.</p>
+                  
+                    
+      <p></p>
+  </div>
+  <!-- end col -->
+</div>
+<!-- end row -->
+
+<hr>
+
+<!-- Forms -->
+<div class="row" id="forms">
+    <div class="col-md-12">
+      <h4 class="font-weight-bold">Forms Customization and Validation <a href="#top">#back to top</a></h4>
+      <p> In our project, we have 3 forms: login, register and contact form. 
+          <h5>Form Customization</h5>
+          <p>To customize the top text in login and register form, go to <strong>src/pages/formPage.js:</strong></p>
+          <img class="img-responsive" src="login-top.PNG" alt="login top text" >
+          <img class="img-responsive" src="register-top.PNG" alt="register top text" >
+          <p>Here is the output of the top text:</p>
+          <img class="img-responsive" src="login-top-ui.PNG" alt="login top text" >
+          <img class="img-responsive" src="register-top-ui.PNG" alt="register top text" >
+         <p>To customize the fields in login form, go to  <strong>src/components/Form/login.js:</strong></p>
+         <img class="img-responsive" src="login-fields.PNG" alt="login fields" >
+         <p>For register form fields, go to <strong>src/components/Form/register.js:</strong></p>
+         <img class="img-responsive" src="register-fields.PNG" alt="register fields" ><br>
+         <p>To customize the Contact form fields go to <strong>src/components/Contact/index.js:</strong></p>
+         <img class="img-responsive" src="contact-fields.PNG" alt="contact fields" > 
+
+         <h5>Form Validation</h5>
+          <p>The login form validation is done in
+          <strong>src/components/Form/Login.js</strong>:  </p>
+          <img class="img-responsive" src="login-valid.PNG" alt="login validation" ><br><br>
+          The register form validation is done in
+          <strong>src/components/Form/Register.js</strong>:  </p>
+          <img class="img-responsive" src="login-valid.PNG" alt="register validation" >
+          <p>The contact form validation is done in <strong>src/components/Contact/index.js</strong>:</p>
+          <img class="img-responsive" src="contact-valid.PNG" alt="contact validation" >
+          <p>To customize the forms styled components, you go to <strong>src/components/Form/FormComponents</strong></p>
+          <p>Each styled component is well commented, so you can change the style according to your needs.</p>
+         
+          <p></p>
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row -->
+      
+      <hr>
+
+      <!-- Links -->
+<div class="row" id="links">
+    <div class="col-md-12">
+      <h4 class="font-weight-bold">Working with links <a href="#top">#back to top</a></h4>
+      
+          <p>We use 2 types of links in the project: router links and scroll links</p>
+          <h5>Router Links</h5>
+          <p>Router links are used to navigate to a different page.
+            You can read more about it <a href="https://reactrouter.com/web/guides/quick-start" target="_blank">here.</a> </p>
+          <p>In our template, we have 2 pages handled by the router: the home page, and the form page.
+            You can customize the routing structure in <strong>src/App.js:</strong></p>
+            <img class="img-responsive" src="app-router.PNG" alt="app router" >
+            <p>The login/register forms open in a new page. see the Login button in the Navbar:</p>
+            <img class="img-responsive" src="login.PNG" alt="login" > 
+            <p>To switch from login to registration form, we need to click on register link in the bottom. We use framer-motion to 
+                change the forms: </p>
+                <img class="img-responsive" src="login-ui.PNG" alt="login form" > 
+
+             <p> The home page, <strong>src/pages/index.js</strong> is where all the components are rendered. Also, here we handle the 
+                toggle navbar states:   </p>
+                <img class="img-responsive" src="home-states.PNG" alt="home-states" >
+                <p> The formPage page, <strong>src/pages/formPage.js</strong> handles the login and register forms </p>
+                    <img class="img-responsive" src="home-states.PNG" alt="home-states" >
+                    <h5>Scroll Links</h5>
+                    <p>You can read more about scroll links <a href="https://www.npmjs.com/package/react-scroll" target="_blank">here.</a> </p>
+                    <p>We use scroll links to scroll to a certain link on the same page. E.g. </p>
+                    <img class="img-responsive" src="smooth-scroll.PNG" alt="smooth scroll" > 
+                    
+        
+
+          <p></p>
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row -->
+      
+    
+
+                       <!--  FOOTER -->
+
+                    <section>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="text-center">
+                                    <h3>
+                                        <b>Thank you for purchasing Alphcons template.</b><br>
+                                        Best Regards!<br>
+                                    </h3>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- end row -->
+
+                    </section>
+                    <!-- end section -->
+
+                </div>
+                <!-- // end .col -->
+
+            </div>
+            <!-- // end .row -->
+
+        </div>
+        <!-- // end container -->
+
+    </div>
+    <!-- end wrapper -->
+
+    <!-- JQuery Library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+
+
+
+<!-- popper.js used for dropdown -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   
+<!-- AOS Animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!--Portfolio scripts -->
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+ 
+<!-- Main JavaScript -->
+<script src="js/main.js"></script>
+
+
+
+</body>
